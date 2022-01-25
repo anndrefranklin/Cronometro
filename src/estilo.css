@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img{
+    width: 350px;
+    height: 350px;
+    padding-top: 150px;
+}
+
+.timer{
+    font-size: 100px;
+    margin-top: -250px;
+}
+
+.areaBtn{
+    margin-top: 2px;
+    display: flex;
+}
+
+.botao{
+    width: 100px;
+    background-color: #fff;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    padding: 1px;    
+}
+
+.botao:hover{
+    opacity: 0.7;
+    color: #000;
+    transition: all 0.50s;
+}
+
+/*.textoFrase{
+    font-style: italic;
+    color: #dd7b22;
+    text-align: center;
+}*/
