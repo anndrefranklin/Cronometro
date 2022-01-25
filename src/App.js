@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import './estilo.css'
 
-
 class App extends Component {
 
 constructor(props){
@@ -62,7 +61,5 @@ limpar(){
     );
   }
 }
-
-
 
 export default App;
