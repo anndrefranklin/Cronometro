@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from "react";
 import './estilo.css'
 
@@ -49,7 +50,7 @@ limpar(){
   render() {
     return (
       <div className="container">
-        <img src={require('./assets/cronometro.png')} className="img" />        
+        <img src={require('../src/assets/cronometro.png')} className="img" alt="img" />        
         <a className="timer">{this.state.numero.toFixed(1)}</a>
         
         <div className="areaBtn">
